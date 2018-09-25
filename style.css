@@ -1,11 +1,46 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+footer {
+  height: 70px;
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(112, 169, 255);
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
 body {
   background: #f8f8f8;
 }
 
 .menu {
-  font-style: italic;
   font-size: 20px;
-  list-style-type: none
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu li {
+  padding: 50px;
+}
+.catalog {
+  display: flex;
+  align-items: center;
+}
+.catalog div{
+  padding: 10px;
 }
 
 body.stock h2 {
